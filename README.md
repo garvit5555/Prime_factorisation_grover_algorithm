@@ -43,8 +43,25 @@ Now, we implement this oracle into Grover’s circuit and run the circuit multip
 ### N = 115
 ![Output for N=115](https://github.com/adarshukla3005/Grovers_Algo/assets/153619593/8fc5f5cf-5a45-4645-9124-a03b5102d1f7)
 
+## Usage
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/quantum-computing-algorithms.git
+   cd quantum-computing-algorithms
 ## Implementation Details
 
+  - Run all codes in the Colllab File to get the factors and the required circuit.
+    - for N=115
+      ```
+      https://github.com/garvit5555/Prime_factorisation_grover_algorithm/blob/main/grover_115.ipynb
+      ```
+        
+    - for N=35
+      ```
+      https://github.com/garvit5555/Prime_factorisation_grover_algorithm/blob/main/grover_35.ipynb
+      ```
+    
 ### Prerequisites
 
 Ensure you have the following packages installed:
@@ -58,3 +75,30 @@ Install the necessary packages using pip:
 
 ```sh
 pip install pennylane numpy matplotlib
+```
+# Quantum Computing Algorithms
+
+This repository contains implementations of quantum computing algorithms and techniques based on the following references:
+
+- **Quantum Factoring Algorithm using Grover Search**
+  - Authors: S. Whitlock, T. D. Kieu
+
+- **Quantum Arithmetic with the Quantum Fourier Transform**
+  - Authors: Lidia Ruiz-Perez, Juan Carlos Garcia-Escartin
+
+- **Basic Arithmetic with the Quantum Fourier Transform (QFT)**
+  - Source: PennyLane Tutorial
+
+## Overview
+
+This repository provides implementations and explanations of quantum algorithms discussed in the referenced papers and tutorials. Each algorithm is implemented in Python, utilizing quantum computing libraries such as PennyLane and Qiskit.
+
+## Contents
+
+1. **Grover-based Quantum Factoring**
+   - Implementation of a quantum algorithm for factoring using Grover's search.
+
+2. **Quantum Arithmetic with QFT**
+   - Examples demonstrating quantum arithmetic operations leveraging the Quantum Fourier Transform.
+
+
